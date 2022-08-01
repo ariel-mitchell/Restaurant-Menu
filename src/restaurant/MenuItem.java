@@ -8,9 +8,6 @@ public class MenuItem {
     private double price;
     private boolean isNew;
 
-    private ArrayList<MenuItem> menu = new ArrayList<>();
-
-
 
     public String getCategory() {
         return category;

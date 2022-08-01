@@ -1,7 +1,10 @@
 package restaurant;
 
-public class Menu {
-    public static void main(String[] args) {
+import java.util.ArrayList;
+import java.util.Date;
 
-    }
+public class Menu {
+    private ArrayList<MenuItem> menu = new ArrayList<>();
+    private Date lastUpdated;
+
 }
